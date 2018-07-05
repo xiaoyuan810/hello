@@ -1,0 +1,26 @@
+{
+    "name": "xiaoyuan810/hello",
+    "description": "测试",
+    "keywords": [
+
+    ],
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://www.phalapi.net/",
+    "type": "library",
+    "authors": [
+        {
+            "name": "袁长彪",
+            "email": "963706922@qq.com",
+            "homepage": "https://github.com/xiaoyuan810",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "php": ">=5.3.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "Hello\\": "src/"
+        }
+    }
+}
